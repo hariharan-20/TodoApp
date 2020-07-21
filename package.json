@@ -1,0 +1,8 @@
+{
+  "name": "TodoApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hariharan-20/TodoApp",
+  "author": "Hari",
+  "license": "MIT"
+}
