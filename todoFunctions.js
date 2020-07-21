@@ -79,12 +79,7 @@ const RenderTodos = (todos,Filters) => {
         
     FilteredTodos.forEach((todo) => {
         DomContent.appendChild(getTodoDom(todo))
-    })  
-    let loc = uuidv4().slice(1,8)
-    window.location.hash = 'https://bit.ly/' + loc
-    const location = window.location.hash.slice(1) 
-    window.location.assign(location)       
-    console.log(window.location.hash.slice(1))      
+    })       
 }
 
 //To Summary incomplete Todo 
